@@ -1,5 +1,17 @@
 # Evently (MVP)
 
+Frontend находится в [ветке](https://github.com/loloneme/evently/tree/frontend)
+Backend находится в [ветке](https://github.com/loloneme/evently/tree/backend)
+
+## Backend
+
+* Реализована слоистая чистая архитектура - деление на repository (работа с БД), service (бизнес-логика), transport layer (хэндлеры)
+* Реализован файл с миграцией БД
+* Есть пагинация для крупных GET-запросов
+* Хэширование пароля, аутентификация с использованием JWT-токенов
+* Интерфейс сервиса описан в файле openapi.yaml с использованием  OpenAPI3.0 спецификации 
+
+
 Главный экран:
 
 <img src='https://github.com/user-attachments/assets/fa288d1b-e865-4b3a-8b6c-ec3b7424f0ca' width=300 />
