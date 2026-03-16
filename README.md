@@ -1,6 +1,7 @@
 # Evently (MVP)
 
 Frontend находится в [ветке](https://github.com/loloneme/evently/tree/frontend)
+
 Backend находится в [ветке](https://github.com/loloneme/evently/tree/backend)
 
 ## Backend
